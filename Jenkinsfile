@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Checkout Code') {
+    stage('') {
       steps {
-        git 'https://github.com/KKhasanov/fcc-jenkins3'
+        git 'https://github.com/KKhasanov/fcc-jenkins3.git'
       }
     }
 
