@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout Code') {
       steps {
-        git(url: 'https://github.com/KKhasanov/fcc-jenkins/blob/a8f9eea3e1cd2f40d23c52151e4ec0dd90ba23c6/Jenkinsfile', branch: 'dev')
+        git(url: 'https://github.com/KKhasanov/fcc-jenkins/blob/20fa630a0999ee4e7b4930ac442c29d9b0b7272d/Jenkinsfile', branch: 'dev')
       }
     }
 
